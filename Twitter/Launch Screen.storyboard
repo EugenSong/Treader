@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="TwitterLogoBlue" translatesAutoresizingMaskIntoConstraints="NO" id="cSb-Vd-FdG">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="cSb-Vd-FdG" secondAttribute="trailing" id="Krs-vK-t5S"/>
+                            <constraint firstItem="cSb-Vd-FdG" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Rhx-0b-a2S"/>
+                            <constraint firstItem="cSb-Vd-FdG" firstAttribute="bottom" secondItem="Bcu-3y-fUS" secondAttribute="bottom" id="V7x-xE-mPI"/>
+                            <constraint firstItem="cSb-Vd-FdG" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" id="e5e-2e-Q4P"/>
+                            <constraint firstItem="cSb-Vd-FdG" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" id="hFV-oR-tdy"/>
+                            <constraint firstItem="cSb-Vd-FdG" firstAttribute="trailing" secondItem="Bcu-3y-fUS" secondAttribute="trailing" id="iAE-F3-qRt"/>
+                            <constraint firstItem="cSb-Vd-FdG" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" id="iQm-qQ-39t"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="cSb-Vd-FdG" secondAttribute="bottom" id="iaR-IP-5c1"/>
+                            <constraint firstItem="cSb-Vd-FdG" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" id="pPb-ci-SWn"/>
+                            <constraint firstItem="cSb-Vd-FdG" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="rZV-U8-2nV"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="TwitterLogoBlue" width="200" height="200"/>
+    </resources>
+</document>
