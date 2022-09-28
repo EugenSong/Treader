@@ -22,6 +22,8 @@ class HomeTableViewController: UITableViewController {
                 navigationController?.navigationBar.standardAppearance = appearance;
                 navigationController?.navigationBar.scrollEdgeAppearance = navigationController?.navigationBar.standardAppearance
             }
+        
+        
 
     }
 
@@ -40,6 +42,7 @@ class HomeTableViewController: UITableViewController {
     @IBAction func logOutPressed(_ sender: Any) {
         TwitterAPICaller.client?.logout()
         self.dismiss(animated: true, completion: nil)
+        UserDefaults.standard.set(false, forKey: "userLoggedIn")
     }
     
 }
