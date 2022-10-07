@@ -1,10 +1,8 @@
 # Project 3 - Treader
 
-Treader is a basic twitter app to read your tweets.
+Treader is a basic app to view, compose, favorite, and retweet tweets.
 
 # Treader - Part II
-
-This is a basic twitter app to view, compose, favorite, and retweet tweets.
 
 Time spent: **6** hours spent in total
 
@@ -28,9 +26,9 @@ Here's a walkthrough of implemented user stories:
 
 <img src='https://github.com/EugenSong/gifs/blob/main/treaderpt2.gif' title='Video Walkthrough' width=350 title='Video Walkthrough' alt='Video Walkthrough' />
 
-Time spent: **11** hours spent in total
-
 # Treader - Part I
+
+Time spent: **11** hours spent in total
 
 ## User Stories
 
